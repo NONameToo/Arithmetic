@@ -6,11 +6,11 @@
 # 最坏时间复杂度: O(n²)
 # 稳定性: 稳定
 
-def insertSort(alist):
+def insert_sort(alist):
     """
     :param alist: 一个列表
-    :j: 有多少个元素需要执行排序
-    :i: 待排序的元素的个数
+    :j: 需要执行多少次排序
+    :i: 需要进行排序的个数
     :return: 排序好的列表
 
     """
@@ -28,5 +28,6 @@ def insertSort(alist):
 
 
 a = [1,5,4,2,7,4,9,6]
-b = insertSort(a)
+b = insert_sort(a)
 print(b)
+
