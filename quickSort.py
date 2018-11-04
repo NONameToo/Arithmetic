@@ -37,3 +37,9 @@ def quick_sort(alist, first, last):
     quick_sort(alist, first, low-1)
 
     return alist
+
+
+a = [1,5,4,2,7,4,9,6]
+b = quick_sort(a, 0, len(a)-1)
+print(b)
+
